@@ -20,6 +20,7 @@ gitUrl:`https://github.com/EnlightenRK/teamWiki.git`
 1.找到本项目implement文件夹里面有本地和远程启动文件
 ![](wiki_img/Snipaste_2022-09-18_17-30-29.png)
 
+
 2.打开配置管理窗口
 ![](wiki_img/Snipaste_2022-09-18_17-31-15.png)
 
