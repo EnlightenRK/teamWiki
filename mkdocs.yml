@@ -1,0 +1,7 @@
+site_name: TeamWiki
+theme:
+  name:  material
+nav:
+-教程:
+  -WIiki使用.md
+  -MarkDown文件.md
