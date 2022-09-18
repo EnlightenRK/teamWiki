@@ -9,10 +9,10 @@ pip install mkdocs
 ```
 pip install mkdocs-material
 ```
-2.安装完成
-##2.本项目的导入
+2.安装完成  
+##2.本项目的导入  
 1.从GitHub上导入到本地  
-gitUrl:`https://github.com/EnlightenRK/teamWiki.git`
+gitUrl:`https://github.com/EnlightenRK/teamWiki.git`  
 ![](wiki_img/Snipaste_2022-09-18_17-17-01.png)
 2.如果成功则出现
 ![](wiki_img/Snipaste_2022-09-18_17-23-44.png)
