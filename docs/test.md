@@ -5,3 +5,4 @@
 ##GitHub push test
     Test succeeded
 ##GitHub pull test
+    Test succeeded
