@@ -13,7 +13,7 @@
     
     
       
-        <title>WIiki使用 - TeamWiki</title>
+        <title>WIiki - TeamWiki</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#test" class="md-skip">
+        <a href="#wiki" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              WIiki使用
+              WIiki
             
           </span>
         </div>
@@ -276,10 +276,69 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          WIiki
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        WIiki使用
+        WIiki
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1wikimkdocs" class="md-nav__link">
+    1.wiki安装(mkdocs安装)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.本项目的导入
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3mkdocs" class="md-nav__link">
+    3.配置mkdocs本地和远程项目部署文件
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git/" class="md-nav__link">
+        Git
+      </a>
     </li>
   
 
@@ -359,6 +418,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1wikimkdocs" class="md-nav__link">
+    1.wiki安装(mkdocs安装)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.本项目的导入
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3mkdocs" class="md-nav__link">
+    3.配置mkdocs本地和远程项目部署文件
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -372,7 +460,38 @@
                   
 
 
-<h1 id="test">test</h1>
+<h1 id="wiki">本Wiki项目的安装与使用</h1>
+<h2 id="1wikimkdocs">1.wiki安装(mkdocs安装)</h2>
+<p><em><strong>预先环境：windows 、 Python2.7.8 +</strong></em><br />
+1.以管理员身份打开cmd 输入</p>
+<pre><code>pip install mkdocs
+</code></pre>
+<pre><code>pip install mkdocs-material
+</code></pre>
+<p>2.安装完成</p>
+<h2 id="2">2.本项目的导入</h2>
+<p>1.从GitHub上导入到本地<br />
+gitUrl:<code>https://github.com/EnlightenRK/teamWiki.git</code>
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-17-01.png" />
+2.如果成功则出现
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-23-44.png" /></p>
+<h2 id="3mkdocs">3.配置mkdocs本地和远程项目部署文件</h2>
+<p>1.找到本项目implement文件夹里面有本地和远程启动文件
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-30-29.png" /></p>
+<p>2.打开配置管理窗口
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-31-15.png" /></p>
+<p>3.添加配置
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-35-02.png" /></p>
+<p>4.找到shell script配置选项
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-35-36.png" /></p>
+<p>5.脚本路径设置为implement内启动文件
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-37-50.png" /></p>
+<p>6.配置命名
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-38-59.png" /></p>
+<p>7.启动测试<br />
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-47-43.png" />
+<img alt="" src="../wiki_img/Snipaste_2022-09-18_17-40-06.png" />
+8.pushStart远程文件同理</p>
 
 
 
@@ -409,13 +528,13 @@
       
       
         
-        <a href="../../%E6%A0%87%E5%87%86/%E6%B5%81%E7%A8%8B/" class="md-footer__link md-footer__link--next" aria-label="Next: 流程" rel="next">
+        <a href="../git/" class="md-footer__link md-footer__link--next" aria-label="Next: Git" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              流程
+              Git
             </div>
           </div>
           <div class="md-footer__button md-icon">
