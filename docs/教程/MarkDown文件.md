@@ -1,22 +1,13 @@
 
 1. [官网地址](https://markdown.com.cn/)
-2. [博客地址。截图](https://blog.csdn.net/lishuoboy/article/details/104421044)
-3. [博客地址。markdown版本，点击编辑](https://blog.csdn.net/lishuoboy/article/details/124811716)
-4. [源码地址。需IDEA克隆代码，用IDEA打开](https://gitee.com/lishuoboy/lishuoboy-markdown)
 
-Markdown 是一种轻量级的标记语言，本质是html。不同应用对md的支持度不一致(方言)，需要注意。
-
-# 0.目录（非官网语法）(IDEA、码云、github 不支持)
-
-[toc]
+# 0.目录（非官网语法）
 
 # 1.标题(h1~h6标签)
 
 不同的 Markdown 应用程序处理 # 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 # 和标题之间进行分隔。
 
 ## 1.1 一般标题
-
-# 一级标题
 
 ## 二级标题
 
@@ -28,18 +19,7 @@ Markdown 是一种轻量级的标记语言，本质是html。不同应用对md�
 
 ###### 六级标题
 
-一级标题
-
-
-==
-二级标题
 --
-
-## 1.2  标题编号(扩展语法)(IDEA、github、码云、Typora、CSDN 不支持)
-
-###  带编号的标题{#custom-id}
-
-[链接到带编号的标题](#custom-id)
 
 # 2.段落(p标签)
 
@@ -97,7 +77,7 @@ ___粗+斜体-不推荐___(em+strong标签)
 
 上标 2^10^(IDEA、github、码云、Typora 不支持)
 
-# 5.引用(blockquote标签)
+# 5.引用
 
 > 引用
 
@@ -111,7 +91,7 @@ ___粗+斜体-不推荐___(em+strong标签)
 
 # 6.列表
 
-## 6.1.有序列表(ol标签)
+## 6.1.有序列表
 
 CommonMark 和其他一些轻量级标记语言允许您使用括号“)” 作为分隔符(例如，1) 第一项)，但并非所有 Markdown 应用程序都支持这一点，因此从兼容性角度来看，这不是一个很好的选择。为了兼容性，仅使用句点。
 
@@ -120,7 +100,7 @@ CommonMark 和其他一些轻量级标记语言允许您使用括号“)” 作�
         1. 三级
 2. 一级
 
-## 6.2.无序列表(ul标签)
+## 6.2.无序列表
 
 要创建无序列表，请在每个列表项前面添加“减号” (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。
 
@@ -145,23 +125,13 @@ CommonMark 和其他一些轻量级标记语言允许您使用括号“)” 作�
 
 - 第二条
 
-## 6.3.任务列表(扩展语法)
+## 6.3.任务列表
 
 - [x] 完成任务列表
 - [x] 完成任务列表
 - [ ] 未完成任务列表
 - [ ] 未完成任务列表
 
-## 6.4 自定义列表(扩展语法)(dl标签)(IDEA、github、码云、Typora 不支持)
-
-一些Markdown处理器允许您创建术语及其对应定义的定义列表。要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。
-
-Markdown
-: Text-to-HTML conversion tool
-
-Authors
-: John
-: Luke
 
 # 7.代码(code标签)
 
@@ -207,7 +177,6 @@ ___
 
 # 9.链接(a标签)
 
-不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。
 
 ## 9.1.超链接
 
@@ -245,35 +214,8 @@ ___
 
 [![链接图片](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw#pic_center "Shiprock")](https://www.baidu.com)
 
-**CSDN带格式的图片**(IDEA、github、码云、Typora、有道云 不支持)
 
-居中的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw#pic_center)
-
-居中并且带尺寸的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw#Pic_center=30x30)
-
-居右的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw#pic_right)
-
-带尺寸的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw)
-
-宽度确定高度等比例的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw=30x)
-
-高度确定宽度等比例的图片:
-![Alt](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw=x30)
-
-# 11.Markdown 转义字符(IDEA 不支持)
-
-要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。
-
-斜体用\*斜体\*
-
-粗体用\*\*粗体\*\*
-
-# 12.内嵌 HTML 标签
+# 11.内嵌 HTML 标签
 
 对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。如需使用 HTML，不需要额外标注这是 HTML 或是 Markdown，只需 HTML 标签添加到 Markdown 文本中即可。
 
@@ -286,14 +228,6 @@ HTML 的行级內联标签如 `<span>、<cite>、<del>` 不受限制，可以在
 <b>加粗</b>
 
 ## 12.2 区块标签
-
-区块元素──比如`<div>、<table>、<pre>、<p>` 等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 `<p>` 标签。
-
-<div>
-   <span>Foo</span>
-</div>
-
-请注意，Markdown 语法在 HTML 区块标签中将不会被进行处理。例如，你无法在 HTML 区块内使用 Markdown 形式的\*强调\*。
 
 # 13.表格(扩展语法)(table系列标签)
 
@@ -308,10 +242,7 @@ HTML 的行级內联标签如 `<span>、<cite>、<del>` 不受限制，可以在
 | 张三            |张三 |张三 |张三 |
 | 李四            |李四 |李四 |李四 |
 
-# 14.围栏代码块(扩展语法)(code标签)
-
-Markdown基本语法允许您通过将行缩进四个空格或一个制表符来创建代码块。如果发现不方便，请尝试使用受保护的代码块。根据Markdown处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号(\`)或三个波浪号(~)。
-
+# 14.围栏代码块
 ## 14.1 普通围栏代码块
 
     {
@@ -363,153 +294,3 @@ function getName() {
     return "张三";  // 姓名
 }
 ```
-
-## 14.3 其它非官网语法
-
-### 14.3.1 公式(IDEA、Typora、有道云 不支持)
-
-$$ E = mc^2 $$
-
-Gamma公式展示 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ 是通过 Euler integral
-
-$$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $$
-
-### 14.3.2 math(IDEA、github、码云、Typora、CSDN 不支持)
-
-```math
-E = mc^2
-```
-
-```math
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-```
-
-### 14.3.3 graph 流程图(IDEA支持但是需下载 mermaid 扩展；有道云支持但是不能有mermaid)
-
-```mermaid
-graph LR
-A -->B
-```
-
-```mermaid
-graph LR
-A[长方形] -- 链接 --> B((圆))
-A --> C(圆角长方形)
-B --> D{菱形}
-C --> D
-```
-
-### 14.3.4 flowchat 流程图(IDEA、github、码云、Typora、有道云 不支持)
-
-```mermaid
-flowchat
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 确认？
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-### 14.3.5 UML时序图(IDEA支持但是需下载 mermaid 扩展；有道云支持但是不能有mermaid)
-
-```mermaid
-sequenceDiagram
-A->>B: How are you?
-B->>A: Great!
-```
-
-```mermaid
-sequenceDiagram
-张三 ->> 李四: 你好！李四, 最近怎么样?
-李四-->>王五: 你最近怎么样，王五？
-李四--x 张三: 我很好，谢谢!
-李四-x 王五: 我很好，谢谢!
-Note right of 王五: 李四想了很长时间, 文字太长了<br/>不适合放在一行.
-
-李四-->>张三: 打量着王五...
-张三->>王五: 很好...王五, 你怎么样?
-```
-
-### 14.3.6 甘特图(IDEA支持但是需下载 mermaid 扩展；有道云支持但是不能有mermaid)
-
-```mermaid
-gantt
-dateFormat YYYY-MM-DD
-section S1
-T1: 2014-01-01, 9d
-section S2
-T2: 2014-01-11, 9d
-section S3
-T3: 2014-01-02, 9d
-
-```
-
-```mermaid
-gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
-        section 现有任务
-        已完成               :done,    des1, 2014-01-06,2014-01-08
-        进行中               :active,  des2, 2014-01-09, 3d
-        计划中               :         des3, after des2, 5d
-```
-
-### 14.3.7 类图(IDEA支持但是需下载 mermaid 扩展；Typora、有道云 不支持)
-
-```mermaid
-classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    <<interface>> Class01
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    class Class10 {
-        >>service>>
-        int id
-        size()
-    }
-```
-
-# 15.脚注(扩展语法)
-
-引用URL。[^1]
-
-引用本地文件。[^2]
-
-下面的链接一般写文档末尾
-
-[^1]: http://www.baidu.com
-
-[^2]: .gitignore
-
-# 16.Emoji 表情(扩展语法)(IDEA、有道云不支持)
-
-有两种方法可以将表情符号添加到Markdown文件中：将表情符号复制并粘贴到Markdown格式的文本中，或者键入emoji shortcodes。
-
-去露营了！ :tent: 很快回来。
-
-真好笑！ :joy:
-
-# 17.自动网址连接(扩展语法)
-
-许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。
-
-https://www.baidu.com
-
-禁用自动URL链接
-
-`https://www.baidu.com`
-
-# 18.注释（非官网语法）(github、码云 不支持)
-
-<!-- 注释语法1：html -->
-
-[//]: # (注释语法2：IDEA的, 井号和花括号可以省略)
