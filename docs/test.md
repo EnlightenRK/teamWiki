@@ -3,3 +3,5 @@
 ##local file to link  [test](index.md)
     Test succeeded
 ##GitHub push test
+    Test succeeded
+##GitHub pull test

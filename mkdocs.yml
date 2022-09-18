@@ -3,5 +3,7 @@ theme:
   name:  material
 nav:
 -教程:
-  -WIiki使用.md
+  -GitHub.md
   -MarkDown文件.md
+  -WIiki使用.md
+-标准:
