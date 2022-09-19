@@ -3,8 +3,11 @@ theme:
   name:  material
 nav:
 -教程:
+  -git.md
   -GitHub.md
   -MarkDown文件.md
   -Wiki.md
 -标准:
   -流程.md
+  -maven依赖.md
+  -数据库.md

@@ -37,7 +37,7 @@ gitUrl:`https://github.com/EnlightenRK/teamWiki.git`
 ![](wiki_img/Snipaste_2022-09-18_17-38-59.png)
 
 7.启动测试  
-![](wiki_img/Snipaste_2022-09-18_17-47-43.png)
+![](wiki_img/Snipaste_2022-09-18_17-47-43.png)  
 ![](wiki_img/Snipaste_2022-09-18_17-40-06.png)
 8.pushStart远程文件同理
 
