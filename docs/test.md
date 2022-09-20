@@ -1,12 +1,12 @@
 
 
-##test to git
+## test to git
     Test succeeded
-##local file to link test
+## local file to link test
 [[**_homeLink_**](index.md)]
 
     Test succeeded
-##GitHub push test
+## GitHub push test
     Test succeeded
-##GitHub pull test
+## GitHub pull test
     Test succeeded
